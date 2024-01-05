@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  font-family: 'Jaldi', sans-serif;
+  color: #fff;
+  background-image: linear-gradient(#010725 ,#214C96);
+}
+
+h1{
+  padding-top: 50px;
+  margin: 0 0 50px;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.main{
+  margin: 0 auto;
+  width: 40%;
+
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+label{
+  font-size: 1.3rem;
+}
+
+textarea{
+  margin-bottom: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255, 50%);
+  color: #fff;
+  font-family: 'Jaldi', sans-serif;
+
+}
+
+textarea:focus{
+  outline: 1px solid #fff;
+}
+
+textarea::placeholder{
+  color: rgb(255, 255, 255, 50%);
+}
+
+button{
+  margin-bottom: 30px;
+  width: 120px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255, 50%);
+}
+
+button:hover{
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.ham{
+  background-color: rgb(28, 98, 56, 50%);
+  border: 1px solid #62F508;
+}
+
+.spam{
+  background-color: rgb(98, 28, 28, 50%);
+  border: 1px solid #FF0606;
+}
+
+.ham, .spam{
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+}
